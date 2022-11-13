@@ -1,0 +1,17 @@
+.navbar{
+  background-color: papayawhip;
+  width: 165ch;
+  height: 55px;
+  padding-right: 0%;
+}
+.navbar a{
+  
+  color: black;
+  display: inline;
+  float: left;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 1px solid #bbb;
+  padding: 14px 16px;
+}

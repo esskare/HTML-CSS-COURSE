@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>STUDENT</title>
+    <link rel="stylesheet" href="stud.css">
+    <script>
+        function showAlert() {
+            alert("Form is submitted please wait..");
+        }
+    </script>
+</head>
+<body style="background-color: papayawhip;">
+    <div class="navbar">
+
+        <a href="file:///C:/Users/swanjuki/Documents/Kare/HTML-CSS-COURSE/usiu.html/student.html">APPLY</a>
+        <a href="file:///C:/Users/swanjuki/Documents/Kare/HTML-CSS-COURSE/usiu.html/members.html">STAFF</a>
+         <a href="file:///C:/Users/swanjuki/Documents/Kare/HTML-CSS-COURSE/usiu.html/programs.html">PROGRAMS</a>
+         <a href="file:///C:/Users/swanjuki/Documents/Kare/HTML-CSS-COURSE/usiu.html/school.html">HOME</a>
+      </div>
+
+            <h4 style="text-align: center;">PLEASE FILL THE INFORMATION BELOW</h4>
+            
+            <form action="MAILTO:estherwangari534@gmail.com", method="POST" enctype="text/plain">
+                <label for="fname">First name:</label> <br>
+                <input type="text" id="fname" name="fname" required> <br>
+                <label for="lname">Last name:</label> <br> 
+                <input type="text" id="fname" name="fname"> 
+        
+                <p>Please Select your gender </p> 
+                <select name="Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option> <br>
+                </select>
+        
+                <p>Please Select your undergraduate Year </p> 
+                    <input type="radio" id="fresman" name="Year" value="Freshman" required>
+                    <label for="Year">Freshman</label>
+                    <input type="radio" id="Sophmore" name="Year" value="Sophmore">
+                    <label for="Year">Sophmore</label>         
+                    <input type="radio" id="Junior" name="Year" value="Juniors">
+                    <label for="Year">Juniors</label>
+                    <input type="radio" id="Senior" name="Year" value="Seniors">
+                    <label for="Year">Seniors</label> 
+        
+                <p>Are you currently enrolled as a:</p>
+                <input type="checkbox" id="enrolled" name="fulltime" value="fulltime student" required>
+                <label for="fulltime_student"> A fulltime student</label><br>
+                <input type="checkbox" id="enrolled" name="partime" value="partime student">
+                <label for="parttime_student"> A partime student</label><br>
+        
+                <p>What is your Current Semester</p>
+                <select name="semester" id="semester" required>
+                    <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Fall">Fall</option>
+        </select>
+
+    
+            <p>What is your current living situation</p>
+            <input type="radio" id="hostel" name="Hostel" value="school" required>
+            <label for="school">I live in the school </label> <br>
+            <input type="radio" id="qwetu" name="qwetu" value="outside">
+            <label for="outside">I live in Qwetu </label><br>
+            <input type="radio" id="ntqwetu" name="ntqwetu" value="outside">
+            <label for="outside">A resident outside school that is not qwetu </label><br>
+            <input type="radio" id="home" name="hom" value="far">
+            <label for="far">Outside School and it is quite far </label>
+    
+            <p>Select your Major</p>
+            <select id="major" name="major" required>
+                <option value="psy">Psychology</option>
+                <option value="accounting">Accounting</option>
+                <option value="finance">Finance</option>
+                <option value="Hotel">Hotel and Restaurant Management</option>
+                <option value="IBA">International Business Administion</option>
+                <option value="IR">International Relations</option>
+                <option value="CJ">Criminal Justice</option>
+                <option value="APT">Applied Computer Technology</option>
+                <option value="IST">Information Systems and Technology</option>
+                <option value="DS">Data Science and Analytics</option>
+                <option value="SWE">Software Engineering</option>
+                <option value="PHARM">Pharmacy</option>
+                <option value="BCHEM">Applied BioChemistry</option>
+                <option value="A.CHEM">Analytical Chemistry</option>
+                <option value="EPI">Epidemiology and Biostatistics</option>
+                <option value="ANI">Animation</option>
+                <option value="FILM">Film Producing and Directing</option>
+                <option value="JOURN">Journalism</option>
+            </select>
+    
+            <p>ANY additional information?</p>
+            <textarea rows = "10" cols = "50">
+            </textarea> <br>
+    
+            <button onclick="showAlert()">
+               Submit
+            </button>
+            <input type="reset">
+         </form>
+    </body>
+    </html>

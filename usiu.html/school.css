@@ -1,0 +1,36 @@
+ 
+  .container{
+    display: flex;
+  }
+  .text {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color:rgb(32, 34, 34);
+    padding: 8px;
+    float: right;
+    align-items: center;
+    display: block;
+
+  }
+.main{
+    display: block;
+    padding-top: 20px;
+    padding-right: 80px;  
+}
+.image{
+    width: 271px;
+    height: 180px;
+}
+.image:hover{
+    opacity: 0.5;
+    color: rgb(88, 86, 86);
+    transition: 0.7s; 
+    box-shadow: 8px 8px 8px rgb(150, 147, 135);;   
+}
+.image:active{
+    transform: translateY(5x);
+}
+.mail{
+    font-size: 18px;
+    font-family: Arial;
+  }
